@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94C0748819EE255400598332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C0748719EE255400598332 /* Foundation.framework */; };
+		94C0748A19EE255400598332 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C0748919EE255400598332 /* CoreGraphics.framework */; };
+		94C0748C19EE255400598332 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C0748B19EE255400598332 /* UIKit.framework */; };
+		94C0749219EE255400598332 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C0749019EE255400598332 /* InfoPlist.strings */; };
+		94C0749419EE255400598332 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C0749319EE255400598332 /* main.m */; };
+		94C0749819EE255400598332 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C0749719EE255400598332 /* AppDelegate.m */; };
+		94C0749A19EE255400598332 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C0749919EE255400598332 /* Images.xcassets */; };
+		94C074A119EE255400598332 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C074A019EE255400598332 /* XCTest.framework */; };
+		94C074A219EE255400598332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C0748719EE255400598332 /* Foundation.framework */; };
+		94C074A319EE255400598332 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C0748B19EE255400598332 /* UIKit.framework */; };
+		94C074AB19EE255400598332 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94C074A919EE255400598332 /* InfoPlist.strings */; };
+		94C074AD19EE255400598332 /* TencentApiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C074AC19EE255400598332 /* TencentApiDemoTests.m */; };
+		94C074B719EE25AF00598332 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C074B619EE25AF00598332 /* TencentOpenAPI.framework */; };
+		94C074BB19EE25BA00598332 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C074B919EE25BA00598332 /* TencentOpenAPI.framework */; };
+		94C074BC19EE25BA00598332 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94C074BA19EE25BA00598332 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		94C074BE19EE264700598332 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C074BD19EE264700598332 /* Security.framework */; };
+		94C074C019EE265300598332 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C074BF19EE265300598332 /* libiconv.dylib */; };
+		94C074C219EE265A00598332 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C074C119EE265A00598332 /* SystemConfiguration.framework */; };
+		94C074C419EE266A00598332 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C074C319EE266A00598332 /* libsqlite3.dylib */; };
+		94C074C619EE267300598332 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C074C519EE267300598332 /* CoreTelephony.framework */; };
+		94C074C819EE267C00598332 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C074C719EE267C00598332 /* libstdc++.dylib */; };
+		94C074CA19EE268300598332 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C074C919EE268300598332 /* libz.dylib */; };
+		94C074CE19EE27C100598332 /* TencentApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C074CD19EE27C100598332 /* TencentApiManager.m */; };
+		94C074D719EE2C8800598332 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C074D519EE2C8800598332 /* RootViewController.m */; };
+		94C074E719EE448E00598332 /* ShareToQQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C074E519EE448E00598332 /* ShareToQQViewController.m */; };
+		94C074E819EE448E00598332 /* ShareToQQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C074E619EE448E00598332 /* ShareToQQViewController.xib */; };
+		94C074F019EE503500598332 /* sharePic.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C074EF19EE503500598332 /* sharePic.png */; };
+		94C074F219EE5C4A00598332 /* testvideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 94C074F119EE5C4A00598332 /* testvideo.mov */; };
+		94C074F419EE5CA200598332 /* previewImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 94C074F319EE5CA200598332 /* previewImage.jpeg */; };
+		94C074F819EE625900598332 /* QZoneApiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C074F619EE625900598332 /* QZoneApiViewController.m */; };
+		94C074F919EE625900598332 /* QZoneApiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C074F719EE625900598332 /* QZoneApiViewController.xib */; };
+		94C074FB19EE641300598332 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C074FA19EE641300598332 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94C074A419EE255400598332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C0747C19EE255400598332 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C0748319EE255400598332;
+			remoteInfo = TencentApiDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94C0748419EE255400598332 /* TencentApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TencentApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C0748719EE255400598332 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94C0748919EE255400598332 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94C0748B19EE255400598332 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94C0748F19EE255400598332 /* TencentApiDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TencentApiDemo-Info.plist"; sourceTree = "<group>"; };
+		94C0749119EE255400598332 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94C0749319EE255400598332 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94C0749519EE255400598332 /* TencentApiDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TencentApiDemo-Prefix.pch"; sourceTree = "<group>"; };
+		94C0749619EE255400598332 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94C0749719EE255400598332 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94C0749919EE255400598332 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94C0749F19EE255400598332 /* TencentApiDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TencentApiDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C074A019EE255400598332 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		94C074A819EE255400598332 /* TencentApiDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TencentApiDemoTests-Info.plist"; sourceTree = "<group>"; };
+		94C074AA19EE255400598332 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94C074AC19EE255400598332 /* TencentApiDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TencentApiDemoTests.m; sourceTree = "<group>"; };
+		94C074B619EE25AF00598332 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = TencentApiDemo/TencentLib/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		94C074B919EE25BA00598332 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		94C074BA19EE25BA00598332 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		94C074BD19EE264700598332 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		94C074BF19EE265300598332 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		94C074C119EE265A00598332 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		94C074C319EE266A00598332 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		94C074C519EE267300598332 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		94C074C719EE267C00598332 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		94C074C919EE268300598332 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		94C074CC19EE27C100598332 /* TencentApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TencentApiManager.h; sourceTree = "<group>"; };
+		94C074CD19EE27C100598332 /* TencentApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TencentApiManager.m; sourceTree = "<group>"; };
+		94C074D419EE2C8800598332 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		94C074D519EE2C8800598332 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		94C074D919EE3A7600598332 /* TencenApiDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TencenApiDef.h; sourceTree = "<group>"; };
+		94C074E419EE448E00598332 /* ShareToQQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareToQQViewController.h; sourceTree = "<group>"; };
+		94C074E519EE448E00598332 /* ShareToQQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareToQQViewController.m; sourceTree = "<group>"; };
+		94C074E619EE448E00598332 /* ShareToQQViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareToQQViewController.xib; sourceTree = "<group>"; };
+		94C074EF19EE503500598332 /* sharePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharePic.png; sourceTree = "<group>"; };
+		94C074F119EE5C4A00598332 /* testvideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = testvideo.mov; sourceTree = "<group>"; };
+		94C074F319EE5CA200598332 /* previewImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = previewImage.jpeg; sourceTree = "<group>"; };
+		94C074F519EE625900598332 /* QZoneApiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZoneApiViewController.h; sourceTree = "<group>"; };
+		94C074F619EE625900598332 /* QZoneApiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZoneApiViewController.m; sourceTree = "<group>"; };
+		94C074F719EE625900598332 /* QZoneApiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QZoneApiViewController.xib; sourceTree = "<group>"; };
+		94C074FA19EE641300598332 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C0748119EE255400598332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C074CA19EE268300598332 /* libz.dylib in Frameworks */,
+				94C074C819EE267C00598332 /* libstdc++.dylib in Frameworks */,
+				94C074C619EE267300598332 /* CoreTelephony.framework in Frameworks */,
+				94C074C419EE266A00598332 /* libsqlite3.dylib in Frameworks */,
+				94C0748A19EE255400598332 /* CoreGraphics.framework in Frameworks */,
+				94C074C219EE265A00598332 /* SystemConfiguration.framework in Frameworks */,
+				94C074C019EE265300598332 /* libiconv.dylib in Frameworks */,
+				94C074BE19EE264700598332 /* Security.framework in Frameworks */,
+				94C074BB19EE25BA00598332 /* TencentOpenAPI.framework in Frameworks */,
+				94C074B719EE25AF00598332 /* TencentOpenAPI.framework in Frameworks */,
+				94C0748C19EE255400598332 /* UIKit.framework in Frameworks */,
+				94C0748819EE255400598332 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C0749C19EE255400598332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C074A119EE255400598332 /* XCTest.framework in Frameworks */,
+				94C074A319EE255400598332 /* UIKit.framework in Frameworks */,
+				94C074A219EE255400598332 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94C0747B19EE255400598332 = {
+			isa = PBXGroup;
+			children = (
+				94C0748D19EE255400598332 /* TencentApiDemo */,
+				94C074A619EE255400598332 /* TencentApiDemoTests */,
+				94C0748619EE255400598332 /* Frameworks */,
+				94C0748519EE255400598332 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C0748519EE255400598332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C0748419EE255400598332 /* TencentApiDemo.app */,
+				94C0749F19EE255400598332 /* TencentApiDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C0748619EE255400598332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94C074C919EE268300598332 /* libz.dylib */,
+				94C074C719EE267C00598332 /* libstdc++.dylib */,
+				94C074C519EE267300598332 /* CoreTelephony.framework */,
+				94C074C319EE266A00598332 /* libsqlite3.dylib */,
+				94C074C119EE265A00598332 /* SystemConfiguration.framework */,
+				94C074BF19EE265300598332 /* libiconv.dylib */,
+				94C074BD19EE264700598332 /* Security.framework */,
+				94C074B619EE25AF00598332 /* TencentOpenAPI.framework */,
+				94C0748719EE255400598332 /* Foundation.framework */,
+				94C0748919EE255400598332 /* CoreGraphics.framework */,
+				94C0748B19EE255400598332 /* UIKit.framework */,
+				94C074A019EE255400598332 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94C0748D19EE255400598332 /* TencentApiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				94C074EE19EE503500598332 /* images */,
+				94C074B819EE25BA00598332 /* TencentLib */,
+				94C0749619EE255400598332 /* AppDelegate.h */,
+				94C0749719EE255400598332 /* AppDelegate.m */,
+				94C0749919EE255400598332 /* Images.xcassets */,
+				94C0748E19EE255400598332 /* Supporting Files */,
+				94C074D419EE2C8800598332 /* RootViewController.h */,
+				94C074D519EE2C8800598332 /* RootViewController.m */,
+				94C074FA19EE641300598332 /* RootViewController.xib */,
+				94C074E419EE448E00598332 /* ShareToQQViewController.h */,
+				94C074E519EE448E00598332 /* ShareToQQViewController.m */,
+				94C074E619EE448E00598332 /* ShareToQQViewController.xib */,
+				94C074F519EE625900598332 /* QZoneApiViewController.h */,
+				94C074F619EE625900598332 /* QZoneApiViewController.m */,
+				94C074F719EE625900598332 /* QZoneApiViewController.xib */,
+			);
+			path = TencentApiDemo;
+			sourceTree = "<group>";
+		};
+		94C0748E19EE255400598332 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C0748F19EE255400598332 /* TencentApiDemo-Info.plist */,
+				94C0749019EE255400598332 /* InfoPlist.strings */,
+				94C0749319EE255400598332 /* main.m */,
+				94C0749519EE255400598332 /* TencentApiDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94C074A619EE255400598332 /* TencentApiDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				94C074AC19EE255400598332 /* TencentApiDemoTests.m */,
+				94C074A719EE255400598332 /* Supporting Files */,
+			);
+			path = TencentApiDemoTests;
+			sourceTree = "<group>";
+		};
+		94C074A719EE255400598332 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C074A819EE255400598332 /* TencentApiDemoTests-Info.plist */,
+				94C074A919EE255400598332 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94C074B819EE25BA00598332 /* TencentLib */ = {
+			isa = PBXGroup;
+			children = (
+				94C074CB19EE27A600598332 /* Manager */,
+				94C074B919EE25BA00598332 /* TencentOpenAPI.framework */,
+				94C074BA19EE25BA00598332 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = TencentLib;
+			sourceTree = "<group>";
+		};
+		94C074CB19EE27A600598332 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				94C074CC19EE27C100598332 /* TencentApiManager.h */,
+				94C074CD19EE27C100598332 /* TencentApiManager.m */,
+				94C074D919EE3A7600598332 /* TencenApiDef.h */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		94C074EE19EE503500598332 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				94C074F319EE5CA200598332 /* previewImage.jpeg */,
+				94C074F119EE5C4A00598332 /* testvideo.mov */,
+				94C074EF19EE503500598332 /* sharePic.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94C0748319EE255400598332 /* TencentApiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C074B019EE255400598332 /* Build configuration list for PBXNativeTarget "TencentApiDemo" */;
+			buildPhases = (
+				94C0748019EE255400598332 /* Sources */,
+				94C0748119EE255400598332 /* Frameworks */,
+				94C0748219EE255400598332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TencentApiDemo;
+			productName = TencentApiDemo;
+			productReference = 94C0748419EE255400598332 /* TencentApiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94C0749E19EE255400598332 /* TencentApiDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C074B319EE255400598332 /* Build configuration list for PBXNativeTarget "TencentApiDemoTests" */;
+			buildPhases = (
+				94C0749B19EE255400598332 /* Sources */,
+				94C0749C19EE255400598332 /* Frameworks */,
+				94C0749D19EE255400598332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C074A519EE255400598332 /* PBXTargetDependency */,
+			);
+			name = TencentApiDemoTests;
+			productName = TencentApiDemoTests;
+			productReference = 94C0749F19EE255400598332 /* TencentApiDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C0747C19EE255400598332 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					94C0749E19EE255400598332 = {
+						TestTargetID = 94C0748319EE255400598332;
+					};
+				};
+			};
+			buildConfigurationList = 94C0747F19EE255400598332 /* Build configuration list for PBXProject "TencentApiDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94C0747B19EE255400598332;
+			productRefGroup = 94C0748519EE255400598332 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C0748319EE255400598332 /* TencentApiDemo */,
+				94C0749E19EE255400598332 /* TencentApiDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C0748219EE255400598332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C074BC19EE25BA00598332 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				94C0749219EE255400598332 /* InfoPlist.strings in Resources */,
+				94C074FB19EE641300598332 /* RootViewController.xib in Resources */,
+				94C074F919EE625900598332 /* QZoneApiViewController.xib in Resources */,
+				94C0749A19EE255400598332 /* Images.xcassets in Resources */,
+				94C074F419EE5CA200598332 /* previewImage.jpeg in Resources */,
+				94C074F019EE503500598332 /* sharePic.png in Resources */,
+				94C074E819EE448E00598332 /* ShareToQQViewController.xib in Resources */,
+				94C074F219EE5C4A00598332 /* testvideo.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C0749D19EE255400598332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C074AB19EE255400598332 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C0748019EE255400598332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C0749819EE255400598332 /* AppDelegate.m in Sources */,
+				94C0749419EE255400598332 /* main.m in Sources */,
+				94C074E719EE448E00598332 /* ShareToQQViewController.m in Sources */,
+				94C074F819EE625900598332 /* QZoneApiViewController.m in Sources */,
+				94C074D719EE2C8800598332 /* RootViewController.m in Sources */,
+				94C074CE19EE27C100598332 /* TencentApiManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C0749B19EE255400598332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C074AD19EE255400598332 /* TencentApiDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94C074A519EE255400598332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C0748319EE255400598332 /* TencentApiDemo */;
+			targetProxy = 94C074A419EE255400598332 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94C0749019EE255400598332 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C0749119EE255400598332 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94C074A919EE255400598332 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C074AA19EE255400598332 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94C074AE19EE255400598332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94C074AF19EE255400598332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C074B119EE255400598332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TencentApiDemo/TencentLib",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TencentApiDemo/TencentApiDemo-Prefix.pch";
+				INFOPLIST_FILE = "TencentApiDemo/TencentApiDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94C074B219EE255400598332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TencentApiDemo/TencentLib",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TencentApiDemo/TencentApiDemo-Prefix.pch";
+				INFOPLIST_FILE = "TencentApiDemo/TencentApiDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		94C074B419EE255400598332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TencentApiDemo.app/TencentApiDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TencentApiDemo/TencentApiDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TencentApiDemoTests/TencentApiDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		94C074B519EE255400598332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TencentApiDemo.app/TencentApiDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TencentApiDemo/TencentApiDemo-Prefix.pch";
+				INFOPLIST_FILE = "TencentApiDemoTests/TencentApiDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C0747F19EE255400598332 /* Build configuration list for PBXProject "TencentApiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C074AE19EE255400598332 /* Debug */,
+				94C074AF19EE255400598332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C074B019EE255400598332 /* Build configuration list for PBXNativeTarget "TencentApiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C074B119EE255400598332 /* Debug */,
+				94C074B219EE255400598332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C074B319EE255400598332 /* Build configuration list for PBXNativeTarget "TencentApiDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C074B419EE255400598332 /* Debug */,
+				94C074B519EE255400598332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94C0747C19EE255400598332 /* Project object */;
+}
